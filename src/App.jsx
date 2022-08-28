@@ -31,7 +31,7 @@ function App() {
     <>
       <div className="card">
         <div className="inner-card">
-          <h1>{facts}</h1>
+          <h1>{facts ? <>{facts}</> : <>Loading...</>}</h1>
         </div>
       </div>
     </>
