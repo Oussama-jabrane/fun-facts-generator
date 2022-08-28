@@ -29,6 +29,10 @@ function App() {
   }, [])
   return (
     <>
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1254943943999168"
+        crossorigin="anonymous"></script>
+      </head>
       <div className="card">
         <div className="inner-card">
           <h1>{facts ? <>{facts}</> : <>Loading...</>}</h1>
