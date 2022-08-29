@@ -21,3 +21,23 @@ body {
 .inner-card {
     position: relative;
 }
+
+@media (max-width: 665px) {
+    .card {
+        padding: 1%;
+        max-height: 100%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    .card {
+        padding: 5px;
+        max-height: 100%;
+        width: 100%;
+    }
+
+    .inner-card>h1 {
+        font-size: 1.5rem;
+    }
+}
