@@ -9,7 +9,7 @@ function getRandom (max, min) {
 
 
 function App() {
-  const range = getRandom(710, 1);
+  const range = getRandom(711, 1);
   const [facts, setFacts] = useState();
   const options = {
     method: 'GET',
